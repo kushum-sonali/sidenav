@@ -1,0 +1,271 @@
+body{
+    background: white;
+  }
+  #side-nav{
+    background: black;
+    min-width: 20%;
+    max-width: 20%;
+  }
+  .content{
+   min-height: 100vh !important;
+    width: 80% !important;
+    background-color: black;
+    color: blue;
+  }
+  .title{
+  height: 100vh!important;
+  width:100%!important;
+  }
+  /* .h{
+    background: #1e1e1e;
+    color: white;
+  } */
+  li i{
+    margin-left:5px;
+    margin-right: 15px;
+  }
+  li{
+    cursor: pointer;
+  }
+  li:hover{
+    background: blue;
+    border-radius: 10px;
+  }
+  .nav-item.active{
+    background: blue!important;
+    border-radius: 10px;
+    }
+    .header-box{
+        background: black;
+        padding: 10px!important;
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+    }
+    .header-box .open-btn{
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+  .header-box2{
+    background: black;
+    padding: 10px;
+    display: none!important;
+    
+  }
+  .page{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100%!important;
+    
+  }
+  .page.active{
+    display: flex;
+  }
+  .home-img{
+   background-image: url("https://media.istockphoto.com/id/184962061/photo/business-towers.webp?b=1&s=170667a&w=0&k=20&c=EozTN0CDNQagbqoKthYkF9xaeRDzYUKOCwF0x9GMcoA=");
+    height: 100%!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-color: rgba(119, 9, 78, 0.46);
+    position: relative;
+  }
+  .home-text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   display: flex;
+   width: 100%;
+   align-items: center;
+   color: rgb(255,255,255);
+   height: 100%;
+  flex-direction: column;
+  }
+  .home-head{
+    font-size: 10vh;
+    text-shadow: #1e1e1e;
+    color: rgb(9,11,40);
+  }
+  .contact-head{
+      font-size: 10vh;
+         text-shadow: #1e1e1e;
+         color: rgb(9,11,40);
+  }
+  .contact-img{
+    background-image: url("https://media.istockphoto.com/id/488120139/photo/modern-real-estate.webp?b=1&s=170667a&w=0&k=20&c=i1A14R6ozSav99OHcnPaGIU_yWCxmBp4He2rHy0U7to=");
+    height: 100%!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+  }
+  .contact-text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+ flex-direction: column;
+    width: 100%;
+    color: rgb(255,255,255);
+    height: 100%;
+    background-color: rgba(119, 9, 78, 0.46);
+  }
+  .main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+  }
+  .main-1-1{
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+  }
+  .icon{
+  color:rgb(17,205,206);
+}
+  .icon:hover{
+    background-color: rgb(5,10,48);
+  }
+  .text-white{
+    margin-right:5px ;
+  } 
+  .main-2{
+    background-color: rgba(9,11,40,0.6);
+    height: 70%;
+    width: max-content;
+    padding: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main-2-1{
+    color: rgb(9,11,40);
+  }
+  input{
+    height: 40px;
+    border-radius: 8px;
+  }
+  button{
+    border-radius: 25px;
+    background-color: blue;
+    height:50px;
+    width: 200px;
+    color: white;
+  }
+  .guide-img{
+    background-image: url("https://media.istockphoto.com/id/1135793300/photo/3d-rendering-of-corporate-buildings-with-sunlight.webp?b=1&s=170667a&w=0&k=20&c=lQnwWUmX8G_-0UQ4addPGXDS8Yay1MjZ9EHXaxgGvBY=");
+    height: 100%!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    background-color: rgba(119, 9, 78, 0.46);
+
+  }
+  .guide-text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    width: 100%;
+    align-items: center!important;
+    color: rgb(255,255,255);
+    height: 100%;
+   flex-direction: column;
+  }
+  .guide-head{
+    font-size: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(9,11,40);
+  }
+  .info-img{
+    background-image: url("https://media.istockphoto.com/id/1132628728/photo/couple-in-front-of-residential-home-smiling.webp?b=1&s=170667a&w=0&k=20&c=7ShbOdG09WvrHpL0_cqgMAef8w0bISBQC-ynS6WiHK0=");
+    height: 100%!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    background-color: rgba(119, 9, 78, 0.46);
+  }
+  .info-text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    width: 100%;
+    align-items: center!important;
+    color: rgb(255,255,255);
+    height: 100%;
+   flex-direction: column;
+   background-color: rgba(119, 9, 78, 0.46);
+
+  }
+  .info-head{
+    font-size: 10vh;
+    display: flex;
+    color: rgb(9,11,40);
+  }
+.setting-head{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 7vh;
+  display: flex;
+  color: rgb(9,11,40);
+}
+.noti-head{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 7vh;
+  display: flex;
+  color: rgb(9,11,40);
+}
+  @media(max-width:767px){
+    #side-nav{
+      position: fixed;
+      min-width:50%!important;
+      max-width: 50%!important;
+      left: -50%;
+      min-height: 100vh;
+      z-index: 1; 
+      transition: left 0.4s ease-in;
+     }
+    #side-nav.active{
+        left: 0px!important;
+      min-height: 100vh;
+      z-index: 1;
+        transition: left 0.4s ease-in;
+    }
+    .content{
+      height: max-content!important;
+      min-height: 100vh!important;
+      
+      width: 100%!important;
+    }
+    .header-box2{
+      background: black;
+      padding: 10px;
+      display: flex!important;
+      height: 80px;
+      width: 100%;
+      position:relative!important;
+        top: -80px;
+     justify-content: space-between;
+     align-items: center;
+     transition: top 0.45s ease-in;
+    }
+    .main{
+      flex-direction: column;
+    }
+    .header-box2 .close-btn {
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+    }
+     .visible{
+        top: 0px;
+        transition: top 0.45s ease-in;
+        /* position: sticky; */
+    }
+  }
